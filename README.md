@@ -13,4 +13,6 @@ https://user-images.githubusercontent.com/55517952/217340644-3b53a9f9-6390-4d4f-
 
 ## To use
 - clone repo
-- follow instructions at https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked to load an unpacked extension
+- go to `chrome://extensions` in a new tab
+- enable `Developer mode`
+- click the `Load unpacked` button and select the extension directory
