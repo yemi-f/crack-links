@@ -1,0 +1,113 @@
+html {
+    min-height: 5em;
+    min-width: 10em;
+}
+
+.wrapper {
+    width: 365px;
+}
+
+#desc {
+    margin-top: 4px;
+    border-top: 1px solid rgba(0, 0, 0, .08);
+}
+
+.row {
+    padding: 4px;
+}
+
+#tabUrl {
+    padding-top: 0;
+    color: rgba(33, 37, 41, 0.75);
+}
+
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.row textarea {
+    width: 100%;
+    border-width: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.button {
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#footer {
+    border-top: 1px solid rgba(0, 0, 0, .08);
+    display: flex;
+}
+
+#buttons {
+    margin-left: auto;
+}
+
+#cancelBtn {
+    background-color: #FFFFFF;
+    border-color: #9FA6AD;
+}
+
+#sendLinkBtn {
+    background-color: #345FE0;
+    color: #FBFEFF;
+}
+
+#sendLinkBtn:hover {
+    background-color: #2A4CB3;
+}
+
+#cancelBtn:hover {
+    background-color: #F8F9F9;
+}
+
+.rowItem {
+    display: inline-block;
+}
+
+#dropup {
+    position: relative;
+    display: inline-block;
+    height: 100%
+}
+
+#dropupContent {
+    display: none;
+    position: absolute;
+    border-radius: 8px;
+    padding: 8px 4px;
+    bottom: 50px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+img {
+    width: 70px;
+}
+
+#success {
+    padding-left: 4px;
+}
+
+#dropupBtn:hover {
+    background-color: #BFBFBF;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cracked</title>
+    <link rel="stylesheet" href="./popup.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="header">
+            <div class="row truncate" id="tabTitle"></div>
+            <div class="row truncate" id="tabUrl"></div>
+        </div>
+
+        <div class="row" id="desc">
+            <textarea id="description" name="description" rows="4" placeholder="Add a description..."></textarea>
+        </div>
+
+        <div class="row" id="footer">
+            <div class="rowItem" id="dropup">
+                <button class="button" id="dropupBtn">
+                    Discord &#9650;
+                </button>
+                <div id="dropupContent">
+                    <label for="wId">Webhook ID:</label><br>
+                    <input type="text" id="wId" name="wId"><br>
+                    <label for="wToken">Webhook token:</label><br>
+                    <input type="text" id="wToken" name="wToken"><br><br>
+                    <input type="submit" value="Save" id="saveBtn">
+                </div>
+            </div>
+            <div class="rowItem" id="buttons">
+                <button class="button" id="cancelBtn">Cancel</button>
+                <button class="button" id="sendLinkBtn">Send link</button>
+            </div>
+        </div>
+        <div>
+            <p id="success"></p>
+        </div>
+    </div>
+    <script src="./popup.js"></script>
+</body>
+
+</html>
