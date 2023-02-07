@@ -11,3 +11,6 @@ Users provide `webhook ID` and `webhook token` (INSTRUCTIONS for [making a webho
 https://user-images.githubusercontent.com/55517952/217340644-3b53a9f9-6390-4d4f-a1c7-d759b0b0a847.mov
 
 
+## To use
+- clone repo
+- follow instructions at https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked to load an unpacked extension
