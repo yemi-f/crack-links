@@ -18,13 +18,5 @@
     },
     "default_popup": "popup.html"
   },
-  "permissions": ["activeTab", "scripting", "storage"],
-  "commands": {
-    "_execute_action": {
-      "suggested_key": {
-        "default": "Ctrl+B",
-        "mac": "Command+B"
-      }
-    }
-  }
+  "permissions": ["activeTab", "scripting", "storage"]
 }
